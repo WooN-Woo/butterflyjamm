@@ -33,7 +33,10 @@ public class tablomanager : MonoBehaviour
         tb.canPlay = true;
         yield return new WaitForSeconds(2.5f);
         tb.canPlay = false;
-        player.transform.position = new Vector3(263.7f, 15.4f, 341.5f); player2.transform.position = new Vector3(263.7f, 15.4f, 341.5f);
+        player.transform.position = new Vector3(255.84f, 15.4f, 341.5f);
+        player2.transform.position = new Vector3(255.84f, 19.26f, 307.82f);
+
+
 
         tb.isTeleport = true;
         cam1.SetActive(false);
