@@ -2,14 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class tablomanager : MonoBehaviour
+public class tablomac : MonoBehaviour
 {
 
     public GameObject cam1;
     public GameObject cam2;
-    public GameObject player;public GameObject player2;
+    public GameObject player; public GameObject player2;
     tabloAnim tb;
-   
+
     private void Awake()
     {
         tb = Object.FindObjectOfType<tabloAnim>();
@@ -63,6 +63,4 @@ public class tablomanager : MonoBehaviour
         player.transform.position = new Vector3(285.0276f, 20.41f, 372.0618f);
 
     }
-
-
 }
