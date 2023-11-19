@@ -495,19 +495,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 206313992}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &728789619
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 728789618}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5e67404db43c138499b0c5a6d4844cd8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 1
 --- !u!95 &728789620
 Animator:
   serializedVersion: 5
@@ -529,19 +516,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!65 &728789622
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 728789618}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.018754577, y: 0.003947794, z: 0.029100046}
-  m_Center: {x: 0.00008575439, y: -0.000321566, z: 0.0006908655}
 --- !u!23 &728789623
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -762,3 +736,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98be2cd07383f8e4bb2f7f049510aec1, type: 3}
+--- !u!1 &1831084376 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -7178354645736651140, guid: bd0e16890590720498fc01ca5aaf4e6f,
+    type: 3}
+  m_PrefabInstance: {fileID: 206313992}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1831084378
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1831084376}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0126959225, y: 0.002741582, z: 0.027840566}
+  m_Center: {x: 0.0051266477, y: -0.0010908027, z: -0.0018885266}
+--- !u!114 &1831084379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1831084376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e67404db43c138499b0c5a6d4844cd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 1
